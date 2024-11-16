@@ -30,7 +30,8 @@ if [ $? -eq 1 ]; then
 
    if [[ "$OFFLINE_COUNT" -ge "$OFFLINE_COUNT_TRESHOLD" ]]; then
       echo ">> Restarting router.."
-      $SH_RESTART_ROUTER
+      echo ">> kidding just testing for now.."
+      #$SH_RESTART_ROUTER
    else
       echo ">> Restarting interface.."
       $SH_RESTART_INTERFACE
